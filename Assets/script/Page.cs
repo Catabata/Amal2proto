@@ -9,7 +9,7 @@ public class Page : MonoBehaviour
         if (playerInventory != null)
         {
             playerInventory.PageCollected();
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); //comment
         }
     }
 }
